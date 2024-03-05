@@ -13,7 +13,7 @@ from langchain.vectorstores import Chroma #The line `from langchain.vectorstores
 
 #import constants
 
-os.environ["OPENAI_API_KEY"] = "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" #sets the OpenAI API key as an environment variable in the current Python session. This API key is assigned the value "", allowing the script to authenticate and access OpenAI's services, such as their language models and APIs, using this key.
+os.environ["OPENAI_API_KEY"] = "<your-openai-key>" #sets the OpenAI API key as an environment variable in the current Python session. This API key is assigned the value "", allowing the script to authenticate and access OpenAI's services, such as their language models and APIs, using this key.
 
 # Enable to save to disk & reuse the model (for repeated queries on the same data)
 PERSIST = False #The line `PERSIST = False` sets the value of the variable `PERSIST` to `False`. This variable is likely used as a flag or configuration parameter in the script. In this context, setting `PERSIST` to `False` indicates that a certain functionality, such as saving a model to disk and reusing it for repeated queries, is disabled. Depending on its usage elsewhere in the script, this variable may control various behaviors or options.
